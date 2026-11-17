@@ -1,0 +1,45 @@
+<style>
+    .stApp {
+        background:
+            radial-gradient(ellipse at 85% 0%, rgba(108, 92, 231, .10), transparent 35%),
+            #0d1117;
+    }
+    [data-testid="stSidebar"] {
+        background: #10151d;
+        border-right: 1px solid rgba(255,255,255,.07);
+    }
+    .block-container {
+        max-width: 1040px;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+    .app-eyebrow {
+        color: #9b8cff;
+        font-size: .78rem;
+        font-weight: 700;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+    }
+    .model-chip {
+        display: inline-block;
+        color: #c9c2ff;
+        background: rgba(125, 107, 255, .13);
+        border: 1px solid rgba(155, 140, 255, .28);
+        border-radius: 999px;
+        padding: .25rem .7rem;
+        font-size: .8rem;
+    }
+    .response-cost {
+        color: #b6beca;
+        font-size: .75rem;
+        text-align: right;
+    }
+    div[data-testid="stChatMessage"] {
+        border: 1px solid rgba(255,255,255,.045);
+        border-radius: 16px;
+        padding: .8rem 1rem;
+    }
+    div[data-testid="stChatInput"] {
+        border-color: rgba(155, 140, 255, .35);
+    }
+</style>
