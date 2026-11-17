@@ -6,6 +6,7 @@ from config import settings
 
 
 if __name__ == "__main__":
+    
     uvicorn.run(
         "backend.api:app",
         host=settings.backend_host,
